@@ -19,7 +19,7 @@ export PS1='🦄 \[\e[0;36m\]\[\e[0;36m\] \W\[\033[0;35m\]$(__git_ps1 " (%s)")\[
 
 # aliases
 # weather and the moon
-alias weather='curl -4 http://wttr.in/Seattle'
+alias weather='curl -4 http://wttr.in/Edegem?m'
 alias moon='curl -4 http://wttr.in/Moon'
 
 # editing and reloading bash profile
@@ -30,13 +30,13 @@ alias rbash='source ~/.bash_profile'
 alias ls='ls -G'
 alias lsa='ls -la'
 # bat rules
-alias cat='bat'
+#alias cat='bat'
 
 # vim
-alias vim="/usr/local/bin/vim"
+#alias vim="/usr/local/bin/vim"
 
 # webapps
-alias milk="open -na 'Google Chrome' --args '--app=https://www.rememberthemilk.com/app '"
-alias webusb="open -a 'Google Chrome' --args '--disable-webusb-security'"
+#alias milk="open -na 'Google Chrome' --args '--app=https://www.rememberthemilk.com/app '"
+#alias webusb="open -a 'Google Chrome' --args '--disable-webusb-security'"
 
 
